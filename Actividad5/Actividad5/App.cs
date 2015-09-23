@@ -17,7 +17,7 @@ namespace Actividad5
 			//Stacklayout permite apilar los controles verticalmente
 			StackLayout stackLayout = new StackLayout
 			{
-				Children =
+				Children =  
 				{
 					new Label
 					{
@@ -33,6 +33,21 @@ namespace Actividad5
 					{
 						Text = "Black",
 						TextColor = Color.Black
+					},
+					new Label                       //Se agregan tres nuevas etiquetas
+					{
+						Text = "Yellow",
+						TextColor = Color.Yellow    
+					},
+					new Label
+					{
+						Text = "Green",             
+						TextColor = Color.Green
+					},
+					new Label
+					{
+						Text = "Red",              
+						TextColor = Color.Red
 					}
 				}
 			};
